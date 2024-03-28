@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#sol {
+    background-color: aqua;
+    width: 33%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sol>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+button{
+    background-color: rgb(225, 200, 168);
+    width: 150px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+#orta {
+    background-color: azure;
+    width: 33%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+#sag {
+    background-color: bisque;
+    width: 33%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
