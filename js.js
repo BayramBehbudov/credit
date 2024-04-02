@@ -43,7 +43,7 @@ document.getElementById("payment").onclick = function () {
     if (customer.credit_limit < 1000) {
         if (customer.credit_limit + cash > 1000) {
             customer.balance-=cash
-            customer.balance += ((customer.credit_limit + cash) - 1000)
+            customer.balance += (((customer.credit_limit + cash) - 1000))*2
             customer.credit_limit = 1000
             customer.borc = 0
             document.getElementById("return").textContent = cash + " AZN ödənildi ";
